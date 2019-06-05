@@ -1,0 +1,18 @@
+
+{% extends template.self %}
+
+{% block head %}
+
+    <div><a href="/">{{ config.pluginsConfig.addHeader.headerTitle }}</a></div>
+
+    {{ super() }}
+
+{% endblock %}
+
+{% block javascript %}
+
+    <footer>footer2</footer>
+
+    {{ super() }}
+
+{% endblock %}
